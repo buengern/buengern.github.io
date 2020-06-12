@@ -69,17 +69,14 @@
       word-break: break-all;
       }
       .first-col {
-      width: 11%;
+      width: 16%;
       text-align: left;
       }
       .second-col {
-      width: 11%;
+      width: 16%;
       text-align: left;
       }
-      .third-col {
-      width: 11%;
-      text-align: left;
-      }
+
       textarea:hover {
       outline: none;
       border: 1px solid #1c87c9;
@@ -172,6 +169,10 @@
                         </div>
                     </div>
                     <div class="dragArea row">
+                        <div class="col-md-8  form-group" data-for="name">
+                            <label for="name-form1-0" class="form-control-label mbr-fonts-style display-7">Numero di prestazione</label>
+                            <input type="text" name="name" data-form-field="Name" required="required" class="form-control display-9" id="name-form1-0">
+                        </div>
                         <div class="col-md-4  form-group" data-for="name">
                             <label for="name-form1-0" class="form-control-label mbr-fonts-style display-7">Nome</label>
                             <input type="text" name="name" data-form-field="Name" required="required" class="form-control display-7" id="name-form1-0">
@@ -192,14 +193,20 @@
                             <label for="email-form1-0" class="form-control-label mbr-fonts-style display-7">Telefono</label>
                             <input type="email" name="email" data-form-field="Telefono" required="required" class="form-control display-7" id="email-form1-0">
                         </div>
+                        <div class="col-md-8  form-group" data-for="name">
+                            <label for="name-form1-0" class="form-control-label mbr-fonts-style display-7">Nome del medico</label>
+                            <input type="text" name="name" data-form-field="Name" required="required" class="form-control display-9" id="name-form1-0">
+                        </div>
+                        <div class="col-md-8  form-group" data-for="email">
+                            <label for="email-form1-0" class="form-control-label mbr-fonts-style display-7">Telefono del medico</label>
+                            <input type="email" name="email" data-form-field="Email" required="required" class="form-control display-9" id="email-form1-0">
+                        </div>
                         <div>
                         <p class="question">Quale analisi vorrebbe eseguire?</p>
                         <table>
                             <tr>
                                 <th class="first-col"></th>
                                 <th class="second-col"></th>
-                                <th class="third-col"></th>
-                                <th></th>
                                 <th></th>
                                 <th></th>
                             </tr>
@@ -208,23 +215,17 @@
                                 <td><input type="radio" value="none" name="professional" /></td>
                                 <td class="second-col">Analisi 4</td>
                                 <td><input type="radio" value="none" name="professional" /></td>
-                                <td class="third-col">Analisi 7</td>
-                                <td><input type="radio" value="none" name="professional" /></td>
                             </tr>
                             <tr>
                                 <td class="first-col">Analisi 2</td>
                                 <td><input type="radio" value="none" name="Informative" /></td>
                                 <td class="second-col">Analisi 5</td>
                                 <td><input type="radio" value="none" name="professional" /></td>
-                                <td class="third-col">Analisi 8</td>
-                                <td><input type="radio" value="none" name="professional" /></td>
                             </tr>
                             <tr>
                                 <td class="first-col">Analisi 3</td>
                                 <td><input type="radio" value="none" name="Visually" /></td>
                                 <td class="second-col">Analisi 6</td>
-                                <td><input type="radio" value="none" name="professional" /></td>
-                                <td class="third-col">Analisi 9</td>
                                 <td><input type="radio" value="none" name="professional" /></td>
                             </tr>
                         </table>
@@ -258,18 +259,7 @@
                         </div>
                         <div >
                         </div>
-                        <div class="col-md-8  form-group" data-for="name">
-                            <label for="name-form1-0" class="form-control-label mbr-fonts-style display-7">Nome del medico</label>
-                            <input type="text" name="name" data-form-field="Name" required="required" class="form-control display-9" id="name-form1-0">
-                        </div>
-                        <div class="col-md-8  form-group" data-for="email">
-                            <label for="email-form1-0" class="form-control-label mbr-fonts-style display-7">Telefono del medico</label>
-                            <input type="email" name="email" data-form-field="Email" required="required" class="form-control display-9" id="email-form1-0">
-                        </div>
-                        <div class="col-md-8  form-group" data-for="name">
-                            <label for="name-form1-0" class="form-control-label mbr-fonts-style display-7">Numero di prestazione</label>
-                            <input type="text" name="name" data-form-field="Name" required="required" class="form-control display-9" id="name-form1-0">
-                        </div>
+
                         <div class="col-md-80 input-group-btn align-center">
                             <button type="submit" class="btn btn-primary btn-form display-22">INVIO</button>
                         </div>
